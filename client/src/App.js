@@ -63,7 +63,7 @@ const App = () => {
       <Services />
       <Testimonials />
       {showButton && (
-        <button onClick={scrollToTop} className='back-to-top'>
+        <button onClick={scrollToTop} className='back-to-top sm-'>
           &#8679;
         </button>
       )}
