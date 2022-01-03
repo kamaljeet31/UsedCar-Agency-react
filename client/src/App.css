@@ -421,7 +421,7 @@ body {
 /* Back-to Top */
 .back-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   right: 30px;
   font-size: 50px;
   background: var(--mainYellow);
@@ -434,4 +434,30 @@ body {
 
 .back-to-top:hover {
   background: var(--mainBlue);
+}
+@media (max-width: 768px) {
+  .hero_text {
+    margin-top: -130px;
+  }
+  .height-max {
+    min-height: calc(100vh - 76px);
+    background: url('../src/img/Capture.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  @keyframes zoom {
+  }
+  .footer-icon {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--mainYellow);
+    transition: all 1s ease-in-out;
+  }
+  .back-to-top {
+    bottom: 70px;
+    right: 30px;
+    font-size: 30px;
+  }
 }

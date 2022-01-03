@@ -5,8 +5,8 @@ const Hero = () => {
     <>
       <header className='header' id='header'>
         <div className='container-fluid'>
-          <div className='row height-max align-items-center'>
-            <div className='col col-md-9 ml-auto text-right pr-5'>
+          <div className='row height-max align-items-center '>
+            <div className='col col-md-9 ml-auto text-right pr-5 hero_text'>
               <h5 className='title-heading d-inline-block p-2 text-uppercase'>
                 the all new
               </h5>
