@@ -441,7 +441,7 @@ body {
   }
   .height-max {
     min-height: calc(100vh - 76px);
-    background: url('../src/img/Capture.png');
+    background: url('../src/img/22.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
